@@ -24,7 +24,6 @@ $testData = array(
 );
 
 Please refer to the quiz.png
-https://www.dropbox.com/s/fulr1pgrgouhizz/quiz.png?dl=0
 
 Here are some frequently asked questions: 
 1. Are frameworks such as JQuery, MooTools, etc. allowed? Yes, but please include the file with your source code. 
