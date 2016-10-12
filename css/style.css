@@ -1,0 +1,118 @@
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    margin: 0 auto;
+    font-family: 'Open Sans',sans-serif;
+
+}
+nav {
+    background-color: #31aee2;
+    color: white;
+    height: 30px;
+}
+
+#logo {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 7px 0 5px 12px;
+    background: transparent url("iovox_logo.png") no-repeat center;
+    text-indent: -10000em;
+    margin:0;
+}
+.calendar {
+    margin: 20px auto;
+    overflow: hidden;
+    width: 695px;
+    padding: 10px 0;
+}
+
+.time-intervals {
+    float: left;
+    width: 65px;
+    height: 730px;
+    list-style-type: none;
+    margin: -15px 10px 0 0;
+    padding: 0;
+    text-align: right;
+    color: #A7A7A7;
+    font-size: 10pt;
+    position: relative;
+}
+
+.time-intervals > li {
+    height: 30px;
+    line-height: 30px;
+}
+
+.time-intervals > li:nth-child(even) { /* half hour */
+    font-size: 7pt;
+}
+
+.time-intervals > li:nth-child(odd) { /* hour */
+    color: #686868;
+    font-weight: bold;
+}
+
+.time-intervals > li:nth-child(odd) > span {
+    margin-left: 5px;
+    font-size: 8pt;
+    color: #A7A7A7;
+    font-weight: normal;
+}
+
+.events-container {
+    float: right;
+    position: relative;
+    width: 620px;
+    height: 720px;
+    padding: 0 10px;
+    border-left: 1px solid #D6D6D6;
+    background: #ECECEC;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.event {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+
+    position: absolute;
+    margin-left: 10px;
+    padding: 0px 15px;
+    height: 100%;
+    border:1px solid #D6D6D6;
+    background: #FFF;
+    overflow: auto;
+}
+
+.event:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 5px;
+    background: #31aee2;
+}
+
+.event > a {
+    cursor: pointer;
+    margin: 0;
+    padding: 0 0 0 0;
+    color: #31aee2;
+    font-weight: bold;
+    font-size: 8pt;
+}
+
+.event > a > span {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #989898;
+    font-size: 7pt;
+    font-weight: normal;
+}
