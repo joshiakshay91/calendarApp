@@ -23,7 +23,7 @@ $testData = array(
 	array('start' => 610, 'end' => 670),
 );
 
-Please refer to the quiz.png
+Refer to the quiz.png
 
 Here are some frequently asked questions: 
 1. Are frameworks such as JQuery, MooTools, etc. allowed? Yes, but please include the file with your source code. 
